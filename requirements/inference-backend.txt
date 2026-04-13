@@ -1,0 +1,17 @@
+# API and runtime
+fastapi>=0.115
+uvicorn[standard]>=0.30
+orjson>=3.10
+pydantic>=2.7
+
+# Numeric / search / ML
+numpy>=1.24
+faiss-cpu>=1.8
+scikit-learn>=1.4
+pandas>=2.2
+pyarrow>=14
+tqdm>=4.66
+
+# Model dependencies
+torch>=2.1
+cesnet-models
